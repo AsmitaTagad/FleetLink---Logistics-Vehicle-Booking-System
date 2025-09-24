@@ -1,12 +1,58 @@
-# React + Vite
+# FleetLink - Logistics Vehicle Booking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FleetLink is a web-based logistics vehicle booking system where admins can manage vehicles and users can search, book, and track vehicle bookings. The application provides an attractive dashboard, vehicle management, booking tracking, and pricing calculation based on distance and rate.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
 
-## Expanding the ESLint configuration
+**Frontend:**
+- React.js with [Vite](https://vitejs.dev/) for fast development and HMR
+- Tailwind CSS for styling
+- React Router for navigation
+- Redux for state management
+- Axios for API requests
+- Lucide-react icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Backend:**
+- Node.js with Express.js
+- MongoDB with Mongoose for data modeling
+- JWT for authentication
+- dotenv for environment configuration
+
+**Other Tools & Libraries:**
+- React Toastify for notifications
+- Date handling with JavaScript `Date` objects
+- Docker & Kubernetes (if applicable for deployment)
+- Git for version control
+
+---
+
+## Features
+
+**Admin:**
+- Add, update, and delete vehicles
+- View all bookings and upcoming schedules
+- Dashboard with analytics and highlights
+
+**User:**
+- Search vehicles by capacity, source, destination, and date
+- Book vehicles with real-time availability check
+- Track upcoming bookings and booking history
+- Pricing calculation based on distance and vehicle rate
+
+**General:**
+- Responsive and attractive UI
+- Proper validation and notifications
+- Booking conflict prevention
+- Distance estimation for fare calculation
+
+---
+
+## Setup Instructions
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/yourusername/fleetlink.git
+cd fleetlink
